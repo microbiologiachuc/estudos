@@ -1,0 +1,16 @@
+[
+  {
+    "id": "pseudomonas-qa",
+    "titulo": "Protocolo: Pseudomonas aeruginosa – abordagem terapêutica",
+    "resumo": "Guia interno de decisão com estratificação de risco e esquema ATB",
+    "tags": ["Infecciologia","Protocolos","Antibioterapia"],
+    "conteudo": "<p>Conteúdo detalhado do projeto (objetivos, metodologia, resultados, links...).</p>"
+  },
+  {
+    "id": "dash-abx",
+    "titulo": "Dashboard antibiótico-terapia",
+    "resumo": "Painel de monitorização de resistências e consumo",
+    "tags": ["Data","Excel","Power BI"],
+    "conteudo": "<p>Descrição do dashboard, screenshots e métricas.</p>"
+  }
+]
