@@ -1,40 +1,40 @@
-<html lang=”en”>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portefólio · João Frade</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Portefólio</h1>
+    <p class="subtitle">Procure por tema, especialidade ou palavra‑chave</p>
 
-		<!-- Name of the app -->
-		<title>Camera App</title>
+    <div class="search-row">
+      <input id="searchInput" type="search" placeholder="Pesquisar..." aria-label="Pesquisar" />
+      <div id="tagsContainer" class="tags"></div>
+    </div>
+  </header>
 
-		<!-- Link to main style sheet -->
-		<link rel="stylesheet" href="style.css"> 
-	</head>
-	<body>
+  <main>
+    <section id="results" class="grid"></section>
+  </main>
 
-		<!-- Camera -->
-		<main id="camera">
+  <!-- Overlay de detalhe -->
+  <dialog id="detailDialog">
+    <article class="detail">
+      <button id="closeDialog" aria-label="Fechar" class="close">×</button>
+      <h2 id="detailTitle"></h2>
+      <p id="detailSummary" class="muted"></p>
+      <div id="detailContent" class="content"></div>
+    </article>
+  </dialog>
 
-		    <!-- Camera sensor -->
-		    <canvas id="camera--sensor"></canvas>
-		    
-		    <!-- Camera view -->
-		    <video id="camera--view" autoplay playsinline></video>
-		    
-		    <!-- Camera output -->
-		    <img src="//:0" alt="" id="camera--output">
+  <footer class="site-footer">
+    <small>© <span id="year"></span> João Frade · Todos os direitos reservados</small>
+  </footer>
 
-		    <!-- Camera trigger -->
-		    <button id="camera--trigger">Take a picture</button>
-
-		</main>
-
-		<!-- Reference to your JavaScript file -->
-		<script src="app.js"></script> 
-
-		<!-- Reference to Tessaract file -->
-		<script src="https://cdn.jsdelivr.net/npm/tesseract.js@4.0.2/dist/tesseract.min.js"></script>
-
-		
-	</body>
+  <script src="app.js" defer></script>
+</body>
 </html>
