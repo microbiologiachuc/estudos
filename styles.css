@@ -29,7 +29,7 @@
 @media (prefers-color-scheme: light){
   :root{
     --bg:#f8fafc; --panel:#ffffff; --surface:#ffffff; --text:#0f172a; --muted:#475569;
-    --brand:#0ea5e9; --brand-weak:#0284c7; --accent:#0f766e;
+    --brand:#0ea5e9; --brand-weak:#0284c7; --accent:#5D9AD3;
     --border:#e5e7eb; --card:#ffffff; --card-border:#e5e7eb; --link:#2563eb;
   }
 }
