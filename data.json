@@ -1,0 +1,803 @@
+[
+  {
+    "id": "adenovirus-dna-carga-viral-4911",
+    "titulo": "Adenovírus - DNA Carga viral",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: 4911",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> 4911</p>"
+  },
+  {
+    "id": "adenovirus-dna-qualitativo-4917",
+    "titulo": "Adenovírus - DNA Qualitativo",
+    "resumo": "PCR em tempo real · LCR/Outros, Contentor estéril · Código: 4917",
+    "tags": [
+      "PCR em tempo real",
+      "LCR",
+      "Outros"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> LCR/Outros, Contentor estéril<br>\n<strong>Código:</strong> 4917</p>"
+  },
+  {
+    "id": "adenovirus-dna-qualitativo-4917-2",
+    "titulo": "Adenovírus - DNA Qualitativo",
+    "resumo": "PCR em tempo real · LCR/Outros produtos,  Contentor estéril · Código: 4917",
+    "tags": [
+      "PCR em tempo real",
+      "LCR",
+      "Outros produtos"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> LCR/Outros produtos,  Contentor estéril<br>\n<strong>Código:</strong> 4917</p>"
+  },
+  {
+    "id": "bk-virus-dna-carga-viral-qbkp-sg",
+    "titulo": "BK Virus DNA Carga viral",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: QBKP-SG",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> QBKP-SG</p>"
+  },
+  {
+    "id": "bk-virus-dna-carga-viral-qbkp-ur",
+    "titulo": "BK Virus DNA Carga viral",
+    "resumo": "PCR em tempo real · Urina, Contentor estéril · Código: QBKP-UR",
+    "tags": [
+      "PCR em tempo real",
+      "Urina"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Urina, Contentor estéril<br>\n<strong>Código:</strong> QBKP-UR</p>"
+  },
+  {
+    "id": "citomegalovirus-cmv-dna-carga-viral-4914",
+    "titulo": "Citomegalovírus (CMV) DNA - Carga Viral",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: 4914",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> 4914</p>"
+  },
+  {
+    "id": "citomegalovirus-cmv-dna-carga-viral-4935",
+    "titulo": "Citomegalovírus (CMV) DNA - Carga Viral",
+    "resumo": "PCR em tempo real · LCR,Urina, Liq. amniótico,Outros produtos,  Contentor estéril · Código: 4935",
+    "tags": [
+      "PCR em tempo real",
+      "LCR",
+      "Urina",
+      "Liq. amniótico",
+      "Outros produtos"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> LCR,Urina, Liq. amniótico,Outros produtos,  Contentor estéril<br>\n<strong>Código:</strong> 4935</p>"
+  },
+  {
+    "id": "citomegalovirus-cmv-dna-qualitativo-cmvp-bi",
+    "titulo": "Citomegalovirus (CMV) DNA Qualitativo",
+    "resumo": "PCR em tempo real · Sec.resp./LBA,Biópsias, Contentor estéril · Código: CMVP-BI",
+    "tags": [
+      "PCR em tempo real",
+      "Sec.resp.",
+      "LBA",
+      "Biópsias"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Sec.resp./LBA,Biópsias, Contentor estéril<br>\n<strong>Código:</strong> CMVP-BI</p>"
+  },
+  {
+    "id": "deteccao-de-hsv-1-por-pcr-hsv-cr",
+    "titulo": "Detecção de HSV 1  por PCR",
+    "resumo": "PCR em tempo real · LCR,  Contentor estéril · Código: HSV-CR",
+    "tags": [
+      "PCR em tempo real",
+      "LCR"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> LCR,  Contentor estéril<br>\n<strong>Código:</strong> HSV-CR</p>"
+  },
+  {
+    "id": "deteccao-de-hsv-1-por-pcr-hsv-lr",
+    "titulo": "Detecção de HSV 1 por PCR",
+    "resumo": "PCR em tempo real · Lavado broncoalveolar, Contentor estéril · Código: HSV-LR",
+    "tags": [
+      "PCR em tempo real",
+      "Lavado broncoalveolar"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Lavado broncoalveolar, Contentor estéril<br>\n<strong>Código:</strong> HSV-LR</p>"
+  },
+  {
+    "id": "deteccao-de-hsv-1-por-pcr-hsv-bi",
+    "titulo": "Detecção de HSV 1 por PCR",
+    "resumo": "PCR em tempo real · Biópsia,  Contentor estéril · Código: HSV-BI",
+    "tags": [
+      "PCR em tempo real",
+      "Biópsia"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Biópsia,  Contentor estéril<br>\n<strong>Código:</strong> HSV-BI</p>"
+  },
+  {
+    "id": "deteccao-de-hsv-1-por-pcr-hsv-ar",
+    "titulo": "Detecção de HSV 1 por PCR",
+    "resumo": "PCR em tempo real · Aspirado bronquico, Contentor estéril · Código: HSV-AR",
+    "tags": [
+      "PCR em tempo real",
+      "Aspirado bronquico"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Aspirado bronquico, Contentor estéril<br>\n<strong>Código:</strong> HSV-AR</p>"
+  },
+  {
+    "id": "deteccao-de-hsv-1-por-pcr-hsv-la",
+    "titulo": "Detecção de HSV 1 por PCR",
+    "resumo": "PCR em tempo real · Liquido amniotico, , Contentor estéril · Código: HSV-LA",
+    "tags": [
+      "PCR em tempo real",
+      "Liquido amniotico"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Liquido amniotico, , Contentor estéril<br>\n<strong>Código:</strong> HSV-LA</p>"
+  },
+  {
+    "id": "deteccao-de-hsv-2-por-pcr-hsv2-o",
+    "titulo": "Detecção de HSV 2 por PCR",
+    "resumo": "PCR em tempo real · Outros produtos, Contentor estéril · Código: HSV2-O",
+    "tags": [
+      "PCR em tempo real",
+      "Outros produtos"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Outros produtos, Contentor estéril<br>\n<strong>Código:</strong> HSV2-O</p>"
+  },
+  {
+    "id": "deteccao-de-hsv-2-por-pcr-hsv2-ar",
+    "titulo": "Detecção de HSV 2 por PCR",
+    "resumo": "PCR em tempo real · Aspirado bronquico, Contentor estéril · Código: HSV2-AR",
+    "tags": [
+      "PCR em tempo real",
+      "Aspirado bronquico"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Aspirado bronquico, Contentor estéril<br>\n<strong>Código:</strong> HSV2-AR</p>"
+  },
+  {
+    "id": "deteccao-de-hsv-2-por-pcr-hsv2-cr",
+    "titulo": "Detecção de HSV 2 por PCR",
+    "resumo": "PCR em tempo real · LCR, Contentor estéril · Código: HSV2-CR",
+    "tags": [
+      "PCR em tempo real",
+      "LCR"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> LCR, Contentor estéril<br>\n<strong>Código:</strong> HSV2-CR</p>"
+  },
+  {
+    "id": "deteccao-de-hsv-2-por-pcr-hsv2-lr",
+    "titulo": "Detecção de HSV 2 por PCR",
+    "resumo": "PCR em tempo real · Lavado broncoalveolar,  Contentor estéril · Código: HSV2-LR",
+    "tags": [
+      "PCR em tempo real",
+      "Lavado broncoalveolar"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Lavado broncoalveolar,  Contentor estéril<br>\n<strong>Código:</strong> HSV2-LR</p>"
+  },
+  {
+    "id": "deteccao-de-hsv-2-por-pcr-hsv2-bi",
+    "titulo": "Detecção de HSV 2 por PCR",
+    "resumo": "PCR em tempo real · Biópsia,  Contentor estéril · Código: HSV2-BI",
+    "tags": [
+      "PCR em tempo real",
+      "Biópsia"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Biópsia,  Contentor estéril<br>\n<strong>Código:</strong> HSV2-BI</p>"
+  },
+  {
+    "id": "deteccao-de-hsv-2-por-pcr-hsv2-la",
+    "titulo": "Detecção de HSV 2 por PCR",
+    "resumo": "PCR em tempo real · Liquido amniotico,Contentor estéril · Código: HSV2-LA",
+    "tags": [
+      "PCR em tempo real",
+      "Liquido amniotico"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Liquido amniotico,Contentor estéril<br>\n<strong>Código:</strong> HSV2-LA</p>"
+  },
+  {
+    "id": "deteccao-do-virus-jc-por-pcr-jcn-o",
+    "titulo": "Detecção do vírus JC por PCR",
+    "resumo": "PCR em tempo real · Outros produtos, Contentor estéril · Código: JCN-O",
+    "tags": [
+      "PCR em tempo real",
+      "Outros produtos"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Outros produtos, Contentor estéril<br>\n<strong>Código:</strong> JCN-O</p>"
+  },
+  {
+    "id": "enterovirus-rna-4907",
+    "titulo": "Enterovírus - RNA",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: 4907",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> 4907</p>"
+  },
+  {
+    "id": "enterovirus-rna-qualitativo-4908",
+    "titulo": "Enterovírus - RNA Qualitativo",
+    "resumo": "PCR em tempo real · LCR/Outros produtos, , Contentor estéril · Código: 4908",
+    "tags": [
+      "PCR em tempo real",
+      "LCR",
+      "Outros produtos"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> LCR/Outros produtos, , Contentor estéril<br>\n<strong>Código:</strong> 4908</p>"
+  },
+  {
+    "id": "enterovirus-rna-qualitativo-4909",
+    "titulo": "Enterovírus - RNA Qualitativo",
+    "resumo": "PCR em tempo real · Sec.resp./Outros produtos, Contentor estéril · Código: 4909",
+    "tags": [
+      "PCR em tempo real",
+      "Sec.resp.",
+      "Outros produtos"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Sec.resp./Outros produtos, Contentor estéril<br>\n<strong>Código:</strong> 4909</p>"
+  },
+  {
+    "id": "enterovirus-rna-qualitativo-4909-2",
+    "titulo": "Enterovírus - RNA Qualitativo",
+    "resumo": "PCR em tempo real · Sec.resp./Outros produtos, Contentor estéril · Código: 4909",
+    "tags": [
+      "PCR em tempo real",
+      "Sec.resp.",
+      "Outros produtos"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Sec.resp./Outros produtos, Contentor estéril<br>\n<strong>Código:</strong> 4909</p>"
+  },
+  {
+    "id": "enterovirus-d68-rna-qualitativo-evd68",
+    "titulo": "Enterovirus D68 - RNA Qualitativo",
+    "resumo": "PCR em tempo real · LCR/Outros produtos, , Contentor estéril · Código: EVD68",
+    "tags": [
+      "PCR em tempo real",
+      "LCR",
+      "Outros produtos"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> LCR/Outros produtos, , Contentor estéril<br>\n<strong>Código:</strong> EVD68</p>"
+  },
+  {
+    "id": "epstein-barr-ebv-dna-carga-viral-4913",
+    "titulo": "Epstein Barr (EBV) - DNA - Carga Viral",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: 4913",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> 4913</p>"
+  },
+  {
+    "id": "epstein-barr-ebv-dna-4934",
+    "titulo": "Epstein Barr [EBV] - DNA",
+    "resumo": "PCR em tempo real · LCR/Outros, Contentor estéril · Código: 4934",
+    "tags": [
+      "PCR em tempo real",
+      "LCR",
+      "Outros"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> LCR/Outros, Contentor estéril<br>\n<strong>Código:</strong> 4934</p>"
+  },
+  {
+    "id": "gastroenterites-bacterias-virus-parasitas-t-multiplo-pcr-4949",
+    "titulo": "Gastroenterites (Bactérias,Virus,Parasitas) T.Multiplo - PCR",
+    "resumo": "PCR em tempo real · Fezes diarreicas, Contentor estéril · Código: 4949",
+    "tags": [
+      "PCR em tempo real",
+      "Fezes diarreicas"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Fezes diarreicas, Contentor estéril<br>\n<strong>Código:</strong> 4949</p>"
+  },
+  {
+    "id": "hbv-genotipagem-resistencia-aos-antivirais-hbvres",
+    "titulo": "HBV - Genotipagem/Resistencia aos antivirais",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: HBVRES",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> HBVRES</p>"
+  },
+  {
+    "id": "hbv-genotipo-resistencia-aos-anti-virais-187",
+    "titulo": "HBV - Genótipo/Resistência aos anti-virais",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: 187",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> 187</p>"
+  },
+  {
+    "id": "hbv-dna-carga-viral-4925",
+    "titulo": "HBV-DNA Carga Viral",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: 4925",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> 4925</p>"
+  },
+  {
+    "id": "hcv-genotipo-188",
+    "titulo": "HCV - Genótipo",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: 188",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> 188</p>"
+  },
+  {
+    "id": "hcv-rna-carga-viral-4920",
+    "titulo": "HCV-RNA Carga Viral",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: 4920",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> 4920</p>"
+  },
+  {
+    "id": "hdv-rna-carga-viral-4904",
+    "titulo": "HDV-RNA Carga Viral",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: 4904",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> 4904</p>"
+  },
+  {
+    "id": "herpes-6-dna-qualitativo-4946",
+    "titulo": "Herpes 6  -  DNA qualitativo",
+    "resumo": "PCR em tempo real · LCR/Outros produtos, Contentor estéril · Código: 4946",
+    "tags": [
+      "PCR em tempo real",
+      "LCR",
+      "Outros produtos"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> LCR/Outros produtos, Contentor estéril<br>\n<strong>Código:</strong> 4946</p>"
+  },
+  {
+    "id": "herpes-6-hhv-6-dna-carga-viral-4942",
+    "titulo": "Herpes 6 (HHV-6) DNA Carga viral",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: 4942",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> 4942</p>"
+  },
+  {
+    "id": "herpes-8-hhv-8-dna-carga-viral-hhv8",
+    "titulo": "Herpes 8 (HHV-8)  DNA - Carga Viral",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: HHV8",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> HHV8</p>"
+  },
+  {
+    "id": "herpes-simplex-hsv1-2-dna-carga-viral-4910",
+    "titulo": "Herpes Simplex (HSV1/2) - DNA Carga viral",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: 4910",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> 4910</p>"
+  },
+  {
+    "id": "herpes-simplex-hsv1-2-dna-qualitativo-4916",
+    "titulo": "Herpes Simplex (HSV1/2) - DNA qualitativo",
+    "resumo": "PCR em tempo real · LCR, Contentor estéril · Código: 4916",
+    "tags": [
+      "PCR em tempo real",
+      "LCR"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> LCR, Contentor estéril<br>\n<strong>Código:</strong> 4916</p>"
+  },
+  {
+    "id": "herpes-simplex-hsv1-2-dna-qualitativo-4930",
+    "titulo": "Herpes simplex (HSV1/2) - DNA qualitativo",
+    "resumo": "PCR em tempo real · Zaragatoa de lesão/Outros produtos, Contentor estéril · Código: 4930",
+    "tags": [
+      "PCR em tempo real",
+      "Zaragatoa de lesão",
+      "Outros produtos"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Zaragatoa de lesão/Outros produtos, Contentor estéril<br>\n<strong>Código:</strong> 4930</p>"
+  },
+  {
+    "id": "hev-rna-carga-viral-4951",
+    "titulo": "HEV -RNA Carga Viral",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: 4951",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> 4951</p>"
+  },
+  {
+    "id": "hiv-1-genotipagem-resistencia-aos-antirretrovirais-trahiv1",
+    "titulo": "HIV-1 - Genotipagem/Resistência aos antirretrovirais",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: TRAHIV1",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> TRAHIV1</p>"
+  },
+  {
+    "id": "hiv-1-genotipagem-resistencia-aos-antirretrovirais-tralcr",
+    "titulo": "HIV-1 - Genotipagem/Resistência aos antirretrovirais",
+    "resumo": "PCR em tempo real · LCR, Contentor estéril · Código: TRALCR",
+    "tags": [
+      "PCR em tempo real",
+      "LCR"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> LCR, Contentor estéril<br>\n<strong>Código:</strong> TRALCR</p>"
+  },
+  {
+    "id": "hiv-1-t-resistencia-integrase-traric",
+    "titulo": "HIV-1 - T. Resistência Integrase",
+    "resumo": "PCR em tempo real · LCR, Contentor estéril · Código: TRARIC",
+    "tags": [
+      "PCR em tempo real",
+      "LCR"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> LCR, Contentor estéril<br>\n<strong>Código:</strong> TRARIC</p>"
+  },
+  {
+    "id": "hiv-1-t-resistencia-integrase-trari",
+    "titulo": "HIV-1 - T. Resistência Integrase",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: TRARI",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> TRARI</p>"
+  },
+  {
+    "id": "hiv-1-t-resistencia-pr-e-rt-trar",
+    "titulo": "HIV-1 - T. Resistência PR e RT",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: TRAR",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> TRAR</p>"
+  },
+  {
+    "id": "hiv-1-t-resistencia-pr-e-rt-trarc",
+    "titulo": "HIV-1 - T. Resistência PR e RT",
+    "resumo": "PCR em tempo real · LCR, Contentor estéril · Código: TRARC",
+    "tags": [
+      "PCR em tempo real",
+      "LCR"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> LCR, Contentor estéril<br>\n<strong>Código:</strong> TRARC</p>"
+  },
+  {
+    "id": "hiv-1-carga-viral-outros-produtos-hiv1-o",
+    "titulo": "HIV-1 Carga viral (Outros Produtos)",
+    "resumo": "PCR em tempo real · Outros produtos, Contentor estéril · Código: HIV1-O",
+    "tags": [
+      "PCR em tempo real",
+      "Outros produtos"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Outros produtos, Contentor estéril<br>\n<strong>Código:</strong> HIV1-O</p>"
+  },
+  {
+    "id": "hiv-1-rna-carga-viral-hiv1",
+    "titulo": "HIV-1 RNA Carga viral",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: HIV1",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> HIV1</p>"
+  },
+  {
+    "id": "hiv-1-rna-carga-viral-hiv1-cr",
+    "titulo": "HIV-1 RNA Carga viral",
+    "resumo": "PCR em tempo real · LCR, Contentor estéril · Código: HIV1-CR",
+    "tags": [
+      "PCR em tempo real",
+      "LCR"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> LCR, Contentor estéril<br>\n<strong>Código:</strong> HIV1-CR</p>"
+  },
+  {
+    "id": "hiv-2-rna-carga-viral-hiv2",
+    "titulo": "HIV-2  RNA Carga viral",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: HIV2",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> HIV2</p>"
+  },
+  {
+    "id": "hiv-2-carga-viral-hiv2-cr",
+    "titulo": "HIV-2 Carga viral",
+    "resumo": "PCR em tempo real · LCR, Contentor estéril · Código: HIV2-CR",
+    "tags": [
+      "PCR em tempo real",
+      "LCR"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> LCR, Contentor estéril<br>\n<strong>Código:</strong> HIV2-CR</p>"
+  },
+  {
+    "id": "hiv-2-carga-viral-utos-hiv2-o",
+    "titulo": "HIV-2 Carga viral utos)",
+    "resumo": "PCR em tempo real · Outros produtos, Contentor estéril · Código: HIV2-O",
+    "tags": [
+      "PCR em tempo real",
+      "Outros produtos"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Outros produtos, Contentor estéril<br>\n<strong>Código:</strong> HIV2-O</p>"
+  },
+  {
+    "id": "infec-respiratorias-teste-multiplo-pcr-4945",
+    "titulo": "Infec. Respiratórias -Teste Múltiplo - PCR",
+    "resumo": "PCR em tempo real · Zaragatoa naso/orofaringe, Zaragatoa com meio de transporte vírico com inactivador · Código: 4945",
+    "tags": [
+      "PCR em tempo real",
+      "Zaragatoa naso",
+      "orofaringe",
+      "Zaragatoa com meio de transporte vírico com inactivador"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Zaragatoa naso/orofaringe, Zaragatoa com meio de transporte vírico com inactivador<br>\n<strong>Código:</strong> 4945</p>"
+  },
+  {
+    "id": "jc-virus-dna-carga-viral-jcvlcr",
+    "titulo": "JC Virus DNA Carga viral",
+    "resumo": "PCR em tempo real · LCR, Contentor estéril · Código: JCVLCR",
+    "tags": [
+      "PCR em tempo real",
+      "LCR"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> LCR, Contentor estéril<br>\n<strong>Código:</strong> JCVLCR</p>"
+  },
+  {
+    "id": "meningite-encefalite-neis-str-pn-s-ag-haem-list-ecoli-ev-hsv-vzv-cmv-hpev-4987",
+    "titulo": "Meningite/Encefalite(Neis,Str.pn,S.ag,Haem,List,Ecoli,EV,HSV,VZV,CMV,HPev..)",
+    "resumo": "PCR em tempo real · LCR, Contentor estéril · Código: 4987",
+    "tags": [
+      "PCR em tempo real",
+      "LCR"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> LCR, Contentor estéril<br>\n<strong>Código:</strong> 4987</p>"
+  },
+  {
+    "id": "monkeypox-virus-vmpx-dna-qualitativo-vmpx",
+    "titulo": "Monkeypox vírus (VMPX) DNA Qualitativo",
+    "resumo": "PCR em tempo real · Zaragatoa lesão/Outro, Contentor estéril · Código: VMPX",
+    "tags": [
+      "PCR em tempo real",
+      "Zaragatoa lesão",
+      "Outro"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Zaragatoa lesão/Outro, Contentor estéril<br>\n<strong>Código:</strong> VMPX</p>"
+  },
+  {
+    "id": "monkeypox-virus-vmpx-dna-qualitativo-vmpxb",
+    "titulo": "Monkeypox vírus (VMPX) DNA Qualitativo",
+    "resumo": "PCR em tempo real · Biópsia, Contentor estéril · Código: VMPXB",
+    "tags": [
+      "PCR em tempo real",
+      "Biópsia"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Biópsia, Contentor estéril<br>\n<strong>Código:</strong> VMPXB</p>"
+  },
+  {
+    "id": "monkeypox-virus-vmpx-dna-qualitativo-vmpxout",
+    "titulo": "Monkeypox vírus (VMPX) DNA Qualitativo",
+    "resumo": "PCR em tempo real · Outros produtos,  Contentor estéril · Código: VMPXOUT",
+    "tags": [
+      "PCR em tempo real",
+      "Outros produtos"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Outros produtos,  Contentor estéril<br>\n<strong>Código:</strong> VMPXOUT</p>"
+  },
+  {
+    "id": "monkeypox-virus-vmpx-dna-qualitativo-vmpx-2",
+    "titulo": "Monkeypox vírus (VMPX) DNA Qualitativo",
+    "resumo": "PCR em tempo real · Zaragatoa lesão, Zaragatoa com meio de transporte vírico com inactivador/Outros produtos, contentor estéril · Código: VMPX",
+    "tags": [
+      "PCR em tempo real",
+      "Zaragatoa lesão",
+      "Zaragatoa com meio de transporte vírico com inactivador",
+      "Outros produtos"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Zaragatoa lesão, Zaragatoa com meio de transporte vírico com inactivador/Outros produtos, contentor estéril<br>\n<strong>Código:</strong> VMPX</p>"
+  },
+  {
+    "id": "monkeypox-virus-vmpx-dna-qualitativo-vmpxo",
+    "titulo": "Monkeypox vírus (VMPX) DNA Qualitativo",
+    "resumo": "PCR em tempo real · Zaragatoa orofaringe, Zaragatoa com meio de transporte vírico com inactivador · Código: VMPXO",
+    "tags": [
+      "PCR em tempo real",
+      "Zaragatoa orofaringe",
+      "Zaragatoa com meio de transporte vírico com inactivador"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Zaragatoa orofaringe, Zaragatoa com meio de transporte vírico com inactivador<br>\n<strong>Código:</strong> VMPXO</p>"
+  },
+  {
+    "id": "parechovirus-enterovirus-adenovirus-parvovirus-hpev",
+    "titulo": "Parechovirus ;EnterovIrus;Adenovirus; Parvovirus",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: HPeV",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> HPeV</p>"
+  },
+  {
+    "id": "parechovirus-enterovirus-adenovirus-parvo-b19-rna-qualitativo-hpevl",
+    "titulo": "Parechovirus;Enterovirus; Adenovirus;Parvo B19- RNA qualitativo",
+    "resumo": "PCR em tempo real · LCR/Outros produtos, Contentor estéril · Código: HPeVL",
+    "tags": [
+      "PCR em tempo real",
+      "LCR",
+      "Outros produtos"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> LCR/Outros produtos, Contentor estéril<br>\n<strong>Código:</strong> HPeVL</p>"
+  },
+  {
+    "id": "parvovirus-b19-dna-carga-viral-4947",
+    "titulo": "Parvovírus B19 -  DNA Carga viral",
+    "resumo": "PCR em tempo real · LCR/Outros, Contentor estéril · Código: 4947",
+    "tags": [
+      "PCR em tempo real",
+      "LCR",
+      "Outros"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> LCR/Outros, Contentor estéril<br>\n<strong>Código:</strong> 4947</p>"
+  },
+  {
+    "id": "parvovirus-b19-dna-carga-viral-4941",
+    "titulo": "Parvovírus B19  DNA Carga viral",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: 4941",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> 4941</p>"
+  },
+  {
+    "id": "pesquisa-de-antigenios-associados-a-infecoes-respiratorias-superiores-agres",
+    "titulo": "Pesquisa de antigénios associados a infeções respiratórias  superiores",
+    "resumo": "Imunoensaio · Zaragatoa da nasofaringe, Zaragatoa com meio de transporte vírico com inactivador · Código: AGRES",
+    "tags": [
+      "Imunoensaio",
+      "Zaragatoa da nasofaringe",
+      "Zaragatoa com meio de transporte vírico com inactivador"
+    ],
+    "conteudo": "<p><strong>Método:</strong> Imunoensaio<br>\n<strong>Produto:</strong> Zaragatoa da nasofaringe, Zaragatoa com meio de transporte vírico com inactivador<br>\n<strong>Código:</strong> AGRES</p>"
+  },
+  {
+    "id": "pesquisa-de-antigenios-associados-a-gastroenterites-aggas",
+    "titulo": "Pesquisa de antigénios associados a gastroenterites",
+    "resumo": "Imunoensaio · Fezes em contentor estéril · Código: AGGAS",
+    "tags": [
+      "Imunoensaio",
+      "Fezes em contentor estéril"
+    ],
+    "conteudo": "<p><strong>Método:</strong> Imunoensaio<br>\n<strong>Produto:</strong> Fezes em contentor estéril<br>\n<strong>Código:</strong> AGGAS</p>"
+  },
+  {
+    "id": "quantificacao-da-carga-virica-do-cmv-cvcmv-o",
+    "titulo": "Quantificação da carga Virica do CMV",
+    "resumo": "PCR em tempo real · Outros produtos, Contentor estéril · Código: CVCMV-O",
+    "tags": [
+      "PCR em tempo real",
+      "Outros produtos"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Outros produtos, Contentor estéril<br>\n<strong>Código:</strong> CVCMV-O</p>"
+  },
+  {
+    "id": "quantificacao-da-carga-virica-do-virus-bk-qbkp-o",
+    "titulo": "Quantificação da carga vírica do vírus BK",
+    "resumo": "PCR em tempo real · Outros produtos, Contentor estéril · Código: QBKP-O",
+    "tags": [
+      "PCR em tempo real",
+      "Outros produtos"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Outros produtos, Contentor estéril<br>\n<strong>Código:</strong> QBKP-O</p>"
+  },
+  {
+    "id": "sarampo-mev-rna-qualitativo-sarco",
+    "titulo": "Sarampo (MeV), RNA qualitativo",
+    "resumo": "PCR em tempo real · Fluídos cavidade oral, Zaragatoa com meio de transporte vírico com inactivador · Código: SARCO",
+    "tags": [
+      "PCR em tempo real",
+      "Fluídos cavidade oral",
+      "Zaragatoa com meio de transporte vírico com inactivador"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Fluídos cavidade oral, Zaragatoa com meio de transporte vírico com inactivador<br>\n<strong>Código:</strong> SARCO</p>"
+  },
+  {
+    "id": "sarampo-mev-rna-qualitativo-sarzo",
+    "titulo": "Sarampo (MeV), RNA qualitativo",
+    "resumo": "PCR em tempo real · Zaragatoa orofaringe, Zaragatoa com meio de transporte vírico com inactivador · Código: SARZO",
+    "tags": [
+      "PCR em tempo real",
+      "Zaragatoa orofaringe",
+      "Zaragatoa com meio de transporte vírico com inactivador"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Zaragatoa orofaringe, Zaragatoa com meio de transporte vírico com inactivador<br>\n<strong>Código:</strong> SARZO</p>"
+  },
+  {
+    "id": "varicela-zoster-vzv-dna-4940",
+    "titulo": "Varicela Zoster (VZV) DNA",
+    "resumo": "PCR em tempo real · LCR/Outros, Contentor estéril · Código: 4940",
+    "tags": [
+      "PCR em tempo real",
+      "LCR",
+      "Outros"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> LCR/Outros, Contentor estéril<br>\n<strong>Código:</strong> 4940</p>"
+  },
+  {
+    "id": "varicela-zoster-vzv-dna-4940-2",
+    "titulo": "Varicela Zoster (VZV) DNA",
+    "resumo": "PCR em tempo real · LCR/Outros produtos, Contentor estéril · Código: 4940",
+    "tags": [
+      "PCR em tempo real",
+      "LCR",
+      "Outros produtos"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> LCR/Outros produtos, Contentor estéril<br>\n<strong>Código:</strong> 4940</p>"
+  },
+  {
+    "id": "varicela-zoster-vzv-dna-carga-viral-4939",
+    "titulo": "Varicela Zoster (VZV) DNA Carga viral",
+    "resumo": "PCR em tempo real · Plasma, Tubo de EDTA com gel · Código: 4939",
+    "tags": [
+      "PCR em tempo real",
+      "Plasma",
+      "Tubo de EDTA com gel"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> Plasma, Tubo de EDTA com gel<br>\n<strong>Código:</strong> 4939</p>"
+  },
+  {
+    "id": "virus-influenza-a-e-b-rna-qualitativo-4919",
+    "titulo": "Vírus Influenza A e B - RNA Qualitativo",
+    "resumo": "PCR em tempo real · LCR/Outros produtos, Contentor estéril · Código: 4919",
+    "tags": [
+      "PCR em tempo real",
+      "LCR",
+      "Outros produtos"
+    ],
+    "conteudo": "<p><strong>Método:</strong> PCR em tempo real<br>\n<strong>Produto:</strong> LCR/Outros produtos, Contentor estéril<br>\n<strong>Código:</strong> 4919</p>"
+  }
+]
