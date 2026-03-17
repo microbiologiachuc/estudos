@@ -1,5 +1,5 @@
-// app.js — mostrar apenas os TÍTULOS na lista; restante info só após clique
-// Funciona com data.json no mesmo diretório (campos: id, titulo, resumo, tags[], conteudo)
+// app.js — mostra apenas os TÍTULOS na lista; restante info só após clique
+// Estrutura compatível com o CSS tipo SNS24: barra A–Z + grupos com “letra à esquerda / títulos à direita”
 
 // Estado global
 const state = {
@@ -28,7 +28,7 @@ document.getElementById("year").textContent = new Date().getFullYear();
 function firstLetterPT(str = "") {
   const s = (str || "").trim().toUpperCase();
   if (!s) return "#";
-  // Remover acentos (Unicode) e obter primeiro carácter base
+  // Remover acentos (Unicode) e obter primeiro caractere base
   const base = s.normalize("NFD").replace(/\p{Diacritic}+/gu, "");
   const ch = base[0];
   return /[A-Z]/.test(ch) ? ch : "#";
@@ -49,7 +49,7 @@ async function loadData() {
     state.items = [];
   }
 
-  // Recolher tags únicas (mantemos os filtros por tag, mesmo não exibindo tags na lista)
+  // Recolher tags únicas (mesmo não mostrando as tags na listagem)
   state.items.forEach((it) => (it.tags || []).forEach((t) => state.tags.add(t)));
 
   renderTags();
@@ -162,9 +162,13 @@ function renderGrid(items) {
           </article>`
         )
         .join("");
+
+      // ⚠️ wrapper .letter-block para ativar o layout “letra à esquerda / cartões à direita”
       return `
-        <h2 class="letter-sep" id="letter-${L}">${L}</h2>
-        <div class="section-cards">${cards}</div>
+        <div class="letter-block">
+          <h2 class="letter-sep" id="letter-${L}">${L}</h2>
+          <div class="section-cards">${cards}</div>
+        </div>
       `;
     })
     .join("");
@@ -185,9 +189,9 @@ function applyFilters() {
   const active = state.activeTags;
   const L = state.activeLetter;
 
-  // 🔎 Pesquisar e filtrar APENAS PELO TÍTULO (não usa resumo nem tags no texto)
+  // 🔎 Pesquisa APENAS pelo TÍTULO (não usa resumo nem tags no texto)
   const filtered = state.items.filter((it) => {
-    const inTitle = it.titulo?.toLowerCase().includes(q);
+    const inTitle = (it.titulo || "").toLowerCase().includes(q);
     const matchQuery = q ? inTitle : true;
     const matchTags = active.size ? (it.tags || []).some((t) => active.has(t)) : true;
     const matchLetter = L ? firstLetterPT(it.titulo) === L : true;
@@ -200,10 +204,10 @@ function applyFilters() {
 function openDetail(id) {
   const it = state.items.find((x) => x.id === id);
   if (!it) return;
-  // Mostramos TODO o restante conteúdo apenas no modal após clique
+  // Mostrar conteúdo completo apenas no modal após clique
   els.dTitle.textContent = it.titulo || "";
-  els.dSummary.textContent = it.resumo || "";      // pode ficar vazio se não quiseres resumo
-  els.dContent.innerHTML = it.conteudo || "";      // bloco HTML detalhado
+  els.dSummary.textContent = it.resumo || "";
+  els.dContent.innerHTML = it.conteudo || "";
   els.dialog.showModal();
 }
 
@@ -213,10 +217,17 @@ els.search.addEventListener("input", (e) => {
   applyFilters();
 });
 
-// Util para evitar injeção ao escrever textos
+// Util para evitar injeção ao escrever textos (correção da tua versão)
 function escapeHtml(s = "") {
-  return s.replace(/[&<>\"']/g, (m) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[m]));
+  return String(s).replace(/[&<>\"']/g, (m) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;"
+  }[m]));
 }
 
 // Arranque
 loadData();
+``
