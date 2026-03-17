@@ -1,58 +1,127 @@
+/* ===== Reset e tokens visuais (inspirado no padrão clean do SNS 24) ===== */
 :root{
-  --bg:#0f172a;          /* slate-900 */
-  --panel:#111827;       /* gray-900 */
-  --card:#111827;
-  --text:#e5e7eb;        /* gray-200 */
-  --muted:#9ca3af;       /* gray-400 */
-  --brand:#22d3ee;       /* cyan-400 */
-  --accent:#60a5fa;      /* blue-400 */
-  --ring:#22d3ee55;
+  /* Cores base (modo escuro e claro afinados para bom contraste) */
+  --bg: #0f172a;            /* slate-900 */
+  --panel: #0b1220;         /* painel principal */
+  --text: #e5e7eb;          /* texto base */
+  --muted: #cbd5e1;         /* texto secundário */
+  --brand: #0ea5e9;         /* azul/ciano acessível p/ realces */
+  --brand-weak: #38bdf8;    /* variação mais clara (hover/foco) */
+  --accent: #60a5fa;        /* títulos/separadores */
+  --border: #1f2937;        /* linhas subtis */
+  --ring: #38bdf865;        /* foco */
+  --card: #111827;          /* cartão */
+  --card-border: #1f2937;
+  --surface: #0b1220;
+  --link: #93c5fd;          /* links no conteúdo */
+
+  /* Espaçamento e raio */
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-3: .75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --radius: 12px;
 }
-*{box-sizing:border-box}
-html,body{margin:0;height:100%;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial}
-.site-header{padding:2rem 1rem;max-width:1100px;margin:0 auto}
-h1{margin:0 0 .25rem;font-size:2rem}
-.subtitle{margin:.25rem 0 1rem;color:var(--muted)}
-.search-row{display:flex;gap:.75rem;flex-wrap:wrap}
-input[type="search"]{
-  flex:1;min-width:220px;padding:.75rem 1rem;border-radius:12px;border:1px solid #374151;
-  background:#0b1220;color:var(--text);outline:none;
-}
-input[type="search"]:focus{box-shadow:0 0 0 4px var(--ring);border-color:var(--brand)}
-.tags{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap}
-.tag{
-  padding:.4rem .7rem;border-radius:999px;background:#0b1220;border:1px solid #374151;
-  color:var(--muted);cursor:pointer;font-size:.9rem;
-}
-.tag.active{background:var(--brand);color:#082f49;border-color:transparent}
-main{max-width:1100px;margin:0 auto;padding:1rem}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}
-.card{
-  background:var(--card);border:1px solid #1f2937;border-radius:16px;padding:1rem;cursor:pointer;
-  transition:transform .12s ease, border-color .12s ease, box-shadow .12s ease;
-}
-.card:hover{transform:translateY(-2px);border-color:#334155;box-shadow:0 8px 20px rgba(2,6,23,.35)}
-.card h3{margin:.25rem 0 .5rem;font-size:1.05rem}
-.card .muted{color:var(--muted);font-size:.9rem}
-.badges{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:.6rem}
-.badge{
-  font-size:.75rem;color:#082f49;background:var(--brand);
-  padding:.25rem .5rem;border-radius:999px
-}
-dialog{
-  width:min(900px,92vw);border:none;border-radius:18px;padding:0;background:transparent
-}
-dialog::backdrop{background:rgba(2,6,23,.6);backdrop-filter:blur(2px)}
-.detail{background:#0b1220;border:1px solid #1f2937;border-radius:18px;padding:1.25rem}
-.close{
-  float:right;border:1px solid #334155;background:#0b1220;color:var(--muted);
-  border-radius:10px;padding:.25rem .6rem;cursor:pointer
-}
-.close:hover{color:var(--text);border-color:#475569}
-.content p{margin:.5rem 0}
-.site-footer{max-width:1100px;margin:1rem auto 2rem;padding:0 1rem;color:var(--muted)}
+
+/* Light mode para legibilidade semelhante à página do SNS24 */
 @media (prefers-color-scheme: light){
-  :root{--bg:#f8fafc;--panel:#ffffff;--card:#ffffff;--text:#0f172a;--muted:#475569}
-  input[type="search"], .tag{background:#fff}
-  .card{border-color:#e5e7eb}
+  :root{
+    --bg:#f8fafc; --panel:#ffffff; --surface:#ffffff; --text:#0f172a; --muted:#475569;
+    --brand:#0ea5e9; --brand-weak:#0284c7; --accent:#0f766e;
+    --border:#e5e7eb; --card:#ffffff; --card-border:#e5e7eb; --link:#2563eb;
+  }
+}
+
+/* ===== Base ===== */
+*{ box-sizing: border-box }
+html, body { margin:0; height:100%; background:var(--bg); color:var(--text);
+  font: 16px/1.55 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, "Helvetica Neue", Arial; }
+img{ max-width:100%; height:auto; display:block }
+a{ color:var(--link); text-decoration: none }
+a:hover{ text-decoration: underline }
+
+/* ===== Cabeçalho e barra de pesquisa (clean, com bom espaçamento) ===== */
+.site-header{ max-width:1120px; margin:0 auto; padding: var(--space-6) var(--space-4) var(--space-3) }
+h1{ margin:0 0 var(--space-1); font-size: clamp(1.6rem, 2.4vw, 2rem); font-weight: 700; letter-spacing: -0.01em }
+.subtitle{ margin:0 0 var(--space-4); color: var(--muted) }
+
+.search-row{ display:flex; gap: var(--space-3); flex-wrap: wrap; margin-bottom: var(--space-3) }
+input[type="search"]{
+  flex:1; min-width: 220px; padding: .8rem 1rem; border-radius: var(--radius);
+  border:1px solid var(--border); background: var(--surface); color: var(--text); outline: none;
+}
+input[type="search"]:focus{ border-color: var(--brand); box-shadow: 0 0 0 4px var(--ring) }
+
+/* ===== Filtros por tags (chips simples, neutros por defeito) ===== */
+.tags{ display:flex; gap:.5rem; align-items:center; flex-wrap:wrap }
+.tag{
+  padding: .45rem .7rem; border-radius: 999px; background: var(--surface);
+  border:1px solid var(--border); color: var(--muted); cursor:pointer; font-size:.9rem;
+}
+.tag:hover{ border-color:#94a3b8; color:var(--text) }
+.tag.active{ background: var(--brand); color: #001725; border-color: transparent }
+
+/* ===== Navegação A–Z (semelhante ao SNS24: botões compactos e claros) ===== */
+.alpha-nav{ display:flex; flex-wrap: wrap; gap:.35rem; margin-top: .5rem }
+.alpha-btn{
+  padding: .35rem .55rem; min-width: 2rem; text-align:center; font-size:.9rem;
+  border-radius: 8px; border:1px solid var(--border); background: var(--surface); color: var(--muted);
+  cursor:pointer; transition: border-color .12s ease, color .12s ease, background .12s ease;
+}
+.alpha-btn:hover{ border-color:#94a3b8; color: var(--text) }
+.alpha-btn.active{ background: var(--brand); color:#001725; border-color: transparent }
+.alpha-btn.all{ margin-right:.35rem }
+
+/* ===== Conteúdo principal ===== */
+main{ max-width:1120px; margin:0 auto; padding: var(--space-4) }
+
+/* Bloco por letra: layout a duas colunas “letra à esquerda / cards à direita” (com fallback a uma coluna em mobile) */
+.letter-block{
+  display:grid; grid-template-columns: 120px 1fr; gap: .75rem 1rem; align-items:start;
+  margin: 1.25rem 0 1rem;
+}
+
+/* Separador de letra */
+.letter-sep{
+  grid-column:1; margin:0; text-align:right; padding-right:.25rem;
+  color: var(--accent); font-size: 1.15rem; font-weight: 700; letter-spacing: .02em;
+}
+
+/* Grelha de cartões à direita */
+.section-cards{
+  grid-column:2;
+  display:grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem;
+}
+
+/* Cartões: caixa simples, hover subtil (sem thumbnails), apenas título visível na listagem */
+.card{
+  background: var(--card); border:1px solid var(--card-border); border-radius: 14px; padding: 1rem;
+  cursor:pointer; transition: transform .12s ease, border-color .12s ease, box-shadow .12s ease, background .12s ease;
+}
+.card:hover{ transform: translateY(-2px); border-color:#334155; box-shadow: 0 8px 20px rgba(2,6,23,.25) }
+.card h3{ margin:.25rem 0 0; font-size: 1rem; font-weight: 600; line-height: 1.35 }
+.card .muted{ display:none }       /* <- Não mostramos resumo na listagem (só no modal) */
+.badges{ display:none }            /* <- Não mostramos as tags na listagem (só servem para filtrar) */
+
+/* Dialog/overlay de detalhe (onde surge o conteúdo completo após clique) */
+dialog{ width: min(900px, 92vw); border:none; border-radius: 18px; padding:0; background: transparent }
+dialog::backdrop{ background: rgba(2,6,23,.55); backdrop-filter: blur(2px) }
+.detail{ background: var(--surface); border:1px solid var(--border); border-radius: 18px; padding: 1.25rem }
+.close{
+  float:right; border:1px solid #334155; background: var(--surface); color: var(--muted);
+  border-radius: 10px; padding: .25rem .6rem; cursor:pointer;
+}
+.close:hover{ color: var(--text); border-color:#475569 }
+.content p{ margin: .6rem 0 }
+.content a{ color: var(--link) }
+
+/* Rodapé */
+.site-footer{ max-width:1120px; margin: 1rem auto 2rem; padding: 0 var(--space-4); color: var(--muted) }
+
+/* ===== Responsivo ===== */
+@media (max-width: 820px){
+  .letter-block{ grid-template-columns: 1fr }          /* letra fica por cima em mobile */
+  .letter-sep{ text-align: left; margin-bottom: .5rem }
 }
