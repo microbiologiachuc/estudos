@@ -101,7 +101,7 @@ main{ max-width:1120px; margin:0 auto; padding: var(--space-4) }
   cursor:pointer; transition: transform .12s ease, border-color .12s ease, box-shadow .12s ease, background .12s ease;
 }
 .card:hover{ transform: translateY(-2px); border-color:#334155; box-shadow: 0 8px 20px rgba(2,6,23,.25) }
-.card h3{ margin:.25rem 0 0; font-size: 1rem; font-weight: 600; line-height: 1.35 }
+.card h3{ margin:.25rem 0 0; font-size: 1rem; font-weight: 400; line-height: 1.35 }
 .card .muted{ display:none }       /* <- Não mostramos resumo na listagem (só no modal) */
 .badges{ display:none }            /* <- Não mostramos as tags na listagem (só servem para filtrar) */
 
