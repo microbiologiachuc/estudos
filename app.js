@@ -1,4 +1,4 @@
-// app.js — lista ordenada alfabeticamente + separadores por letra (estilo SNS24)
+// app.js — mostrar apenas os TÍTULOS na lista; restante info só após clique
 // Funciona com data.json no mesmo diretório (campos: id, titulo, resumo, tags[], conteudo)
 
 // Estado global
@@ -49,7 +49,7 @@ async function loadData() {
     state.items = [];
   }
 
-  // Recolher tags únicas
+  // Recolher tags únicas (mantemos os filtros por tag, mesmo não exibindo tags na lista)
   state.items.forEach((it) => (it.tags || []).forEach((t) => state.tags.add(t)));
 
   renderTags();
@@ -58,6 +58,7 @@ async function loadData() {
 }
 
 function renderTags() {
+  if (!els.tags) return;
   els.tags.innerHTML = "";
   [...state.tags]
     .sort((a, b) => a.localeCompare(b, "pt", { sensitivity: "base" }))
@@ -78,7 +79,7 @@ function renderTags() {
 
 // Barra A–Z (apenas letras existentes)
 function renderAlphaNav() {
-  if (!els.alphaNav) return; // caso não exista no HTML
+  if (!els.alphaNav) return;
   const letters = new Set(state.items.map((it) => firstLetterPT(it.titulo)));
   const order = [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
   const frag = document.createDocumentFragment();
@@ -132,7 +133,7 @@ function updateAlphaActive() {
   });
 }
 
-// Render com separadores por letra
+// Render com separadores por letra — LISTA MOSTRA APENAS O TÍTULO
 function renderGrid(items) {
   // Agrupar por primeira letra
   const groups = new Map();
@@ -157,11 +158,7 @@ function renderGrid(items) {
           <article class="card" data-id="${it.id}" tabindex="0" role="button" aria-label="${escapeHtml(
             it.titulo
           )}">
-            <h3>${escapeHtml(it.titulo)}</h3>
-            <p class="muted">${escapeHtml(it.resumo || "")}</p>
-            <div class="badges">
-              ${(it.tags || []).map((t) => `<span class="badge">${escapeHtml(t)}</span>`).join("")}
-            </div>
+            <h3 class="only-title">${escapeHtml(it.titulo)}</h3>
           </article>`
         )
         .join("");
@@ -188,24 +185,25 @@ function applyFilters() {
   const active = state.activeTags;
   const L = state.activeLetter;
 
+  // 🔎 Pesquisar e filtrar APENAS PELO TÍTULO (não usa resumo nem tags no texto)
   const filtered = state.items.filter((it) => {
-    const hay = `${it.titulo} ${it.resumo} ${(it.tags || []).join(" ")}`.toLowerCase();
-    const matchQuery = q ? hay.includes(q) : true;
+    const inTitle = it.titulo?.toLowerCase().includes(q);
+    const matchQuery = q ? inTitle : true;
     const matchTags = active.size ? (it.tags || []).some((t) => active.has(t)) : true;
     const matchLetter = L ? firstLetterPT(it.titulo) === L : true;
     return matchQuery && matchTags && matchLetter;
   });
 
-  // A ordenação A→Z mantém-se por grupo dentro de renderGrid()
   renderGrid(filtered);
 }
 
 function openDetail(id) {
   const it = state.items.find((x) => x.id === id);
   if (!it) return;
-  els.dTitle.textContent = it.titulo;
-  els.dSummary.textContent = it.resumo || "";
-  els.dContent.innerHTML = it.conteudo || "";
+  // Mostramos TODO o restante conteúdo apenas no modal após clique
+  els.dTitle.textContent = it.titulo || "";
+  els.dSummary.textContent = it.resumo || "";      // pode ficar vazio se não quiseres resumo
+  els.dContent.innerHTML = it.conteudo || "";      // bloco HTML detalhado
   els.dialog.showModal();
 }
 
