@@ -16,13 +16,20 @@
       <input id="searchInput" type="search" placeholder="Pesquisar..." aria-label="Pesquisar" />
       <div id="tagsContainer" class="tags"></div>
     </div>
+
+    <!-- Barra A–Z (necessária para o comportamento tipo SNS24) -->
+    <nav id="alphaNav" class="alpha-nav" aria-label="Índice alfabético">
+      <!-- botões gerados em app.js -->
+    </nav>
   </header>
 
   <main>
-    <section id="results" class="grid"></section>
+    <!-- O JS vai injetar secções por letra no interior desta área -->
+    <section id="results" class="grid" aria-live="polite"></section>
   </main>
 
-  <dialog id="detailDialog">
+  <!-- Modal de detalhe (conteúdo completo após clique) -->
+  <dialog id="detailDialog" aria-labelledby="detailTitle">
     <article class="detail">
       <button id="closeDialog" aria-label="Fechar" class="close">×</button>
       <h2 id="detailTitle"></h2>
